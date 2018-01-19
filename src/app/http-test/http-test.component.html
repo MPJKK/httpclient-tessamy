@@ -1,3 +1,14 @@
 <p>
-  {{tulos}}
+    {{tulos}}
+
+</p>
+<p>
+    {{apitulos}}
+</p>
+<p>
+    <img [src]="apitulos">
+</p>
+
+<p *ngFor="let autotulos of tulokset">
+    <img [src]="autoosoite+ autotulos.ID">
 </p>
